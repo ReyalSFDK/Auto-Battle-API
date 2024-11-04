@@ -1,0 +1,13 @@
+export { BogWine } from "./bog-wine.model";
+export { CommanderSlime } from "./commander-slime.model";
+export { Dryad } from "./dryad.model";
+export { Fairy } from "./fairy.model";
+export { FatSlime } from "./fat-slime.model";
+export { FighterRobot } from "./fighter-robot.model";
+export { FireSlime } from "./fire-slime.model";
+export { HolySlime } from "./holy-slime.model";
+export { Mermaid } from "./mermaid.model";
+export { Shadow } from "./shadow.model";
+export { SkeletonArcher } from "./skeleton-archer.model";
+export { SkeletonMage } from "./skeleton-mage.model";
+export { Slime } from "./slime.model";
