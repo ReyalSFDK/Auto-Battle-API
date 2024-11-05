@@ -10,6 +10,12 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
+    "paths": {
+      "@characters/*": ["src/characters/*"],
+      "@lobby/*": ["src/lobby/*"],
+      "@portals/*": ["src/portals/*"],
+      "@lobbies/*": ["src/lobbies/*"],
+    },
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": false,

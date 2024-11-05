@@ -1,7 +1,7 @@
 import * as _ from "lodash";
 import { Injectable } from "@nestjs/common";
-import { Character } from "src/characters/models/character.model";
-import * as characters from "src/characters/models/characters";
+import { Character } from "@characters/model/character.model";
+import * as characters from "@characters/model/characters";
 
 type CharacterMap = {
 	[characterName: string]: new () => Character;
